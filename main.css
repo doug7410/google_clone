@@ -1,0 +1,122 @@
+body {
+font-family: arial;
+font-size: 13px;
+}
+body, html {
+    height: 100%;
+}
+#wraper {
+    min-height: 100%;
+    position: relative;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: #737373;
+} 
+a:hover {
+    text-decoration: underline;
+}
+a.signIn:hover{
+    text-decoration: none;
+}
+#wraper > header > ul > li {
+    margin: 10px 6px;
+    display: inline;
+    /* line-height: 40px; */
+}
+
+#wraper > header > ul {
+    float: right;
+    margin: 12px 24px 0 0;
+}
+.grid {
+width: 23px;
+position: relative;
+top: 6px;
+}
+#logo {
+    clear: both;
+    text-align: center;
+}
+#logo > img {
+    width: 269px;
+    margin: 145px 0 20px 0;
+    position: relative;
+    /* left: -7px; */
+}
+form {
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+footer {
+    background: #f2f2f2;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 14px;
+    border-top: solid 1px #e4e4e4;
+    min-width: 980px;
+}
+#footerNavLevt {
+    float: left;
+}
+#footerNavRight {
+    float: right;
+    /* width: 291px; */
+}
+footer li {
+    margin: 10px;
+    display: inline;
+}
+input:hover {
+    border: solid 1px #8A8A86;
+}
+input {
+    width: 573px;
+    background: url('images/microphone.png') no-repeat;
+    background-position: right center;
+    height: 24px;
+    background-size: 23px;
+    border: solid 1px #D8D8D8;
+    padding: 14px 8px;
+    box-sizing: border-box;
+}
+input:active{
+    border: solid 1px #8A8A86;
+}
+input:focus {
+    border: solid 1px #4285F4;
+    outline: none;
+}
+a.signIn:link, a.signIn:visited  {
+    display: inline-block;
+    border: solid 1px #4285F4;
+    border-radius: 2px;
+    width: 69px;
+    height: 28px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    font-weight: bold;
+    background: linear-gradient(#4487FC, #4683EA);
+    color: #FFF;
+    position: relative;
+    top: -2px;
+    margin: 0 0 0 3px;
+}
+button {
+    background: #F5F5F5;
+    border: solid 1px #D9D9D9;
+    border-radius: 2px;
+    color: #444444;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 16px 6px;
+    height: 29px;
+    padding: 0 8px;
+}
+button:hover, .signIn:hover {
+    box-shadow: 2px 2px 2px #E2DBDB;
+    cursor: pointer;
+}
